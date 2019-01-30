@@ -10,7 +10,9 @@ namespace lotto
     {
         static void Main(string[] args)
         {
+            // Add random object
             Random numbers = new Random();
+
 
             int[] winningCuponNumbers = new int[7]; // winning cupons numbers 
             int[] userCupon = new int[7]; // user cupons numbers array 
